@@ -1,6 +1,10 @@
-<script type="text/javascript">
-        VanillaTilt.init(document.querySelector(".your-element"), {
-                max: 25,
-                speed: 400
-        });
-</script>
+<script>
+    VanillaTilt.init(document.querySelector(".box"), {
+      max: 10,
+      speed: 200,
+      easing: "cubic-bezier(.03,.98,.52,.99)",
+      reverse: true,
+      glare: true,
+      "max-glare": 0.1,
+    });
+  </script>
