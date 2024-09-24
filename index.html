@@ -14,7 +14,12 @@
     </div>
     <div class="card">
     </div>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".box"), {
+                max: 25,
+                speed: 400
+        });
+</script>
     <script src="script.js"></script>
 </body>
 </html>
