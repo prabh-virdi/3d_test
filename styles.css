@@ -1,0 +1,35 @@
+.box {
+  position: relative;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+}
+.box .card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.07);
+  width: 300px;
+  min-height: 400px;
+  backdrop-filter: blur(10px);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+.elements{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  background: transparent;
+  transform: translateZ(80px);
+}
+.elements h2{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #f6d8d5;
+  text-transform: uppercase;
+}
+.elements p{
+  font-size: 1.5rem;
+  color: #b393d3;
+}
