@@ -13,7 +13,7 @@ body {
   background: radial-gradient(#480d35, #17151d);
 }
 .box {
-  position: relative;
+  position: 100v1000h;
   border-radius: 200px;
   transform-style: preserve-3d;
   z-index: 1;
